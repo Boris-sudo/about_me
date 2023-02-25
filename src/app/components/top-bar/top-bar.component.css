@@ -1,0 +1,53 @@
+.main {
+  background: #279CEB;
+  height: 65px;
+  width: 100%;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.name {
+  background: #3AB0FF;
+  display: inline-block;
+
+  width: 300px;
+
+  margin-top: 0;
+  float: left;
+
+  color: white;
+  font-size: 30px;
+  font-family: Open Sans Condensed, sans-serif;
+}
+
+.buttons {
+  display: inline-block;
+
+  margin-left: 5%;
+  margin-top: 0;
+}
+.buttons li {
+  width: 150px;
+  height: 65px;
+
+  float: left;
+  text-align: center;
+
+  font-size: 16px;
+}
+.buttons li a {
+  text-transform: none;
+  text-decoration: none;
+  line-height: 65px;
+  color: #eeeeee;
+}
+.active {
+  background: #3AB0FF;
+}
+.active:hover {
+  background: #28a2f5;
+}
+.active.chosen {
+  background: #3AB0FF;
+  color: #ffffff;
+}

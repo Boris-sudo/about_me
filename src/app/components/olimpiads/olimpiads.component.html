@@ -1,0 +1,18 @@
+<div class="search-box">
+    <input id="search" type="text" placeholder="Search..." [(ngModel)]="searchValue">
+    <p class="fa fa-search"></p>
+</div>
+
+<div class="card-container">
+  <div *ngFor="let o of olympiads | search: searchValue">
+    <a class="card">
+      <p>Название: {{o.name}} <br>
+        Год: {{o.year}} <br>
+        Баллы: {{o.my_score}} из {{o.max_score}} <br>
+        Место: {{o.my_stat}} <br>
+      </p>
+    </a>
+  </div>
+</div>
+
+<!--<app-show-olympiad [id]="show_index" *ngIf="show_index != -1"></app-show-olympiad>-->

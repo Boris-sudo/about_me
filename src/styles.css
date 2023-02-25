@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,300,100|Open+Sans+Condensed:300);
+@import url(https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+* {
+  overflow: hidden;
+  padding: 0;
+  user-focus-key: none;
+  user-select: none;
+  font-family: 'Open Sans', sans-serif;
+}
+p, a, h1, div {
+  overflow: hidden;
+  cursor: default;
+}
+body {
+  margin: 0;
+}

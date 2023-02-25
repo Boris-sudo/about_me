@@ -1,0 +1,15 @@
+.container {
+  width: 60%;
+  margin-left: 20%;
+  height: 500px;
+  position: absolute;
+  background: #eeeeee;
+  top: 10px;
+  color: black;
+}
+.out {
+  position: absolute;
+  float: right;
+  margin-right: 5px;
+  margin-top: 5px;
+}

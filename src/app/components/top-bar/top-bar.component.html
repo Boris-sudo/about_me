@@ -1,0 +1,12 @@
+<div class="main">
+  <div class="name">
+    <p style="line-height: 65px; margin: 0; margin-left: 20%!important;">Борис Кива</p>
+  </div>
+
+  <div class="buttons">
+    <ul style="margin-top: 0;" class="top-menu">
+      <li (click)="go('about me')" [ngClass]="router.url == '/' && 'active' || ''"><a>Обо мне</a></li>
+      <li (click)="go('olympiads')" [ngClass]="router.url == '/olympiads' && 'active' || ''"><a>Олимпиады</a></li>
+    </ul>
+  </div>
+</div>
