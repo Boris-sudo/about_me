@@ -10,6 +10,7 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
 import { SearchPipe } from './search.pipe';
 import { ShowOlympiadComponent } from './components/show-olympiad/show-olympiad.component';
 import { HttpClientModule } from "@angular/common/http";
+import { BottomBarComponent } from './components/bottom-bar/bottom-bar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HttpClientModule } from "@angular/common/http";
     TopBarComponent,
     AboutMeComponent,
     SearchPipe,
-    ShowOlympiadComponent
+    ShowOlympiadComponent,
+    BottomBarComponent
   ],
   imports: [
     ReactiveFormsModule,

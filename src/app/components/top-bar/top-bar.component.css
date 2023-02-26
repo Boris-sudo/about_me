@@ -44,10 +44,6 @@
 .active {
   background: #3AB0FF;
 }
-.active:hover {
+.inactive:hover {
   background: #28a2f5;
-}
-.active.chosen {
-  background: #3AB0FF;
-  color: #ffffff;
 }
